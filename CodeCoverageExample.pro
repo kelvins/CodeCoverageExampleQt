@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core
+QT       += core testlib
 
 QT       -= gui
 
@@ -13,6 +13,10 @@ CONFIG   += console
 CONFIG   -= app_bundle
 
 TEMPLATE = app
+
+# --coverage option is synonym for: -fprofile-arcs -ftest-coverage -lgcov
+QMAKE_CXXFLAGS += --coverage
+QMAKE_LFLAGS += --coverage
 
 SOURCES += main.cpp \
     calculator.cpp
