@@ -18,6 +18,8 @@ TEMPLATE = app
 QMAKE_CXXFLAGS += --coverage
 QMAKE_LFLAGS += --coverage
 
+include( $$PWD/Tests.pri )
+
 SOURCES += main.cpp \
     calculator.cpp
 
