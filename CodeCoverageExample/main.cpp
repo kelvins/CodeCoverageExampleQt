@@ -1,6 +1,6 @@
 #include <QCoreApplication>
 
-#include "testsuite.h"
+#include "tests/testsuite.h"
 
 int main(int argc, char *argv[])
 {
