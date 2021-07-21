@@ -18,7 +18,7 @@ COV_DIR="$SCRIPT_DIR/../coverage"
 # Path where the HTML files should be saved
 HTML_RESULTS="${COV_DIR}""/html"
 
-# Create the html folder if it does not exists
+# Create the html folder if it does not exist
 mkdir -p ${HTML_RESULTS}
 
 # Generate our initial info
